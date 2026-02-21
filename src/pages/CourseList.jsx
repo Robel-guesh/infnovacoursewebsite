@@ -35,8 +35,8 @@ const CourseList = () => {
         <div className="bg-gray-50 pb-20">
             <Hero />
 
-            <div className="max-w-7xl mx-auto mt-12 p-6">
-                <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm flex items-center gap-4 mb-12 ">
+            <div className="max-w-7xl mx-auto mt-6 md:mt-12 p-6">
+                <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm flex items-center gap-4 mb-6 md:mb-12 ">
                     <div className="relative flex-grow w-[600px]">
                         <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
                         <input

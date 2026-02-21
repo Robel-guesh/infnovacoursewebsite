@@ -135,7 +135,7 @@ const CourseDetail = () => {
 
                     <div className="bg-white rounded-xl p-8 border border-gray-100 shadow-sm">
                         <h2 className="text-2xl font-bold text-gray-900 mb-8">Your Instructor</h2>
-                        <div className="flex items-start gap-6">
+                        <div className="flex flex-col md:flex-row items-start gap-6">
                             <div className="w-16 h-16 rounded-full bg-[#FF6B2C] flex items-center justify-center text-white text-2xl font-bold flex-shrink-0">
                                 {course.instructor.split(' ').map(n => n[0]).join('')}
                             </div>
