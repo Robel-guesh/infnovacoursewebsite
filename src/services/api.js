@@ -30,7 +30,7 @@ export const getCourseById = async (id) => {
         return data;
     } catch (error) {
         console.error(`Error fetching course ${id}`, error);
-         return []
+         return [];
     }
 };
 
