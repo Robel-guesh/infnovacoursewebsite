@@ -17,7 +17,7 @@ export const getCourses = async () => {
         return response.data;
     } catch (error) {
         console.error('Error fetching courses', error);
-
+         return [];
     }
 };
 
@@ -30,7 +30,7 @@ export const getCourseById = async (id) => {
         return data;
     } catch (error) {
         console.error(`Error fetching course ${id}`, error);
-
+         return []
     }
 };
 
